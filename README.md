@@ -6,4 +6,5 @@ Prereq's - must have Docker installed on your workstation see: [Docker Install](
 
 to Build the container use:
 
+`<addr>`
 docker build -t weatherlab .       (don't forget the ending dot)
