@@ -13,6 +13,8 @@ Prereq's - must have Docker installed on your workstation see: [Docker Install](
 `docker run -it -v ~/data:/flows -p 1880:1880 weatherlab`
 (this will start the containter and automatically run node-red)
 
-* if you want to start node manually (from inside the container), use:
+* if you want to start node-red manually (from inside the container), use:
 
 `docker run -it -v ~/data:/flows -p 1880:1880 weatherlab /bin/bash`
+
+Once inside the container use the command `node-red` to start it 
