@@ -11,4 +11,9 @@ to Build the container use:
 
 To execute the container use:
 
-`docker run -it -v ~/data2:/root/.node-red -p 1880:1880 weatherlab /bin/bash`
+`docker run -it -v ~/data:/flows -p 1880:1880 weatherlab`
+(this will start the containter and automatically run node-red)
+
+if you want to start node manually (from inside the container), use:
+
+`docker run -it -v ~/data:/flows -p 1880:1880 weatherlab /bin/bash`
